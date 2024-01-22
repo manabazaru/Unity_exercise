@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 72ed9ebaebc86a64ab6fdd4e5f5cf851
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - todoElementPrefab: {fileID: 1908927259748211332, guid: 0bd1024f9be9ea744ad4af59d14aa0e2, type: 3}
+  - todoListParent: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
