@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.team_1.TODO_app",
+  "applicationId": "com.team_1.PushyTasks",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-release.ap_",
       "properties": {
-        "packageId": "com.team_1.TODO_app",
+        "packageId": "com.team_1.PushyTasks",
         "split": "",
         "minSdkVersion": "22"
       }

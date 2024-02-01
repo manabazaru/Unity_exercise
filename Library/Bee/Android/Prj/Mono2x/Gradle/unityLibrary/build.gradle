@@ -3,11 +3,12 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project('mobilenotifications.androidlib')
 
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
     buildToolsVersion '30.0.2'
 
     compileOptions {
@@ -17,7 +18,7 @@ android {
 
     defaultConfig {
         minSdkVersion 22
-        targetSdkVersion 30
+        targetSdkVersion 34
         ndk {
             abiFilters 'armeabi-v7a'
         }

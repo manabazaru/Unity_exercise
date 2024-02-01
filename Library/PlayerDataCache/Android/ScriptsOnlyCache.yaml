@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - DisplayTasks
     - GoToInputScene
     - GoToSampleScene
+    - NotificationManager
     - RegisterTask
     - TaskManager
     Unity.2D.Animation.Editor.dll:
@@ -140,37 +141,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16284}
     - Class: 114
-      Script: {instanceID: 17374}
+      Script: {instanceID: 17376}
     - Class: 114
-      Script: {instanceID: 17384}
+      Script: {instanceID: 17386}
     - Class: 114
-      Script: {instanceID: 17630}
+      Script: {instanceID: 17632}
     - Class: 114
-      Script: {instanceID: 17642}
+      Script: {instanceID: 17644}
     - Class: 114
-      Script: {instanceID: 17978}
+      Script: {instanceID: 17980}
     - Class: 114
-      Script: {instanceID: 18728}
+      Script: {instanceID: 18730}
     - Class: 114
-      Script: {instanceID: 18938}
+      Script: {instanceID: 18940}
     - Class: 114
-      Script: {instanceID: 19196}
+      Script: {instanceID: 19198}
     - Class: 114
-      Script: {instanceID: 19962}
+      Script: {instanceID: 19964}
     - Class: 114
-      Script: {instanceID: 20188}
+      Script: {instanceID: 20190}
     - Class: 114
-      Script: {instanceID: 20254}
+      Script: {instanceID: 20256}
     - Class: 114
-      Script: {instanceID: 20412}
+      Script: {instanceID: 20414}
     - Class: 114
-      Script: {instanceID: 21294}
+      Script: {instanceID: 21296}
     - Class: 114
-      Script: {instanceID: 21696}
+      Script: {instanceID: 21698}
     - Class: 114
-      Script: {instanceID: 21704}
+      Script: {instanceID: 21706}
     - Class: 114
-      Script: {instanceID: 22972}
+      Script: {instanceID: 22976}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -221,27 +222,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16856}
     - Class: 114
-      Script: {instanceID: 17374}
+      Script: {instanceID: 17152}
     - Class: 114
-      Script: {instanceID: 17380}
+      Script: {instanceID: 17376}
     - Class: 114
-      Script: {instanceID: 17630}
+      Script: {instanceID: 17382}
     - Class: 114
-      Script: {instanceID: 17978}
+      Script: {instanceID: 17632}
     - Class: 114
-      Script: {instanceID: 19092}
+      Script: {instanceID: 17980}
     - Class: 114
-      Script: {instanceID: 19216}
+      Script: {instanceID: 19094}
     - Class: 114
-      Script: {instanceID: 19532}
+      Script: {instanceID: 19218}
     - Class: 114
-      Script: {instanceID: 20412}
+      Script: {instanceID: 19534}
     - Class: 114
-      Script: {instanceID: 21294}
+      Script: {instanceID: 20414}
     - Class: 114
-      Script: {instanceID: 21696}
+      Script: {instanceID: 21296}
     - Class: 114
-      Script: {instanceID: 22200}
+      Script: {instanceID: 21698}
+    - Class: 114
+      Script: {instanceID: 22204}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -363,6 +366,12 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
+      Hash: 60b389d5a34e7b271b91a6e3c19e7790
+    assemblyName: Unity.Notifications.Android.dll
+    namespaceName: Unity.Notifications.Android
+    className: AndroidReceivedNotificationMainThreadDispatcher
+  - hash:
+      serializedVersion: 2
       Hash: 4763159aa2d72ed796c2398564a4d18d
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -421,6 +430,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SkeletonAsset
+  - hash:
+      serializedVersion: 2
+      Hash: dd27a56b461a56296b9f3a3b4e6c80f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NotificationManager
   - hash:
       serializedVersion: 2
       Hash: 3a74ff97f36cb7570e57460d53dcf9c2
@@ -1433,4 +1448,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/InputScene.unity
-  playerPath: C:/Users/bookf/Documents/Git_Folder/unity/TODO/TODO_app/test1.apk
+  playerPath: C:/Users/bookf/Documents/Git_Folder/unity/TODO/TODO_app/Pushy_Tasks.apk

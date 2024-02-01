@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 
 public class RegisterTask : MonoBehaviour
@@ -29,5 +30,7 @@ public class RegisterTask : MonoBehaviour
         };
 
         TaskManager.Instance.AddTask(newTask);
+        PlayerPrefs.SetString("LastTaskDate", System.DateTime.Now.ToString());
+        
     }
 }

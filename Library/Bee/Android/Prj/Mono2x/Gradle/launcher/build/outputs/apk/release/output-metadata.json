@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.team_1.TODO_app",
+  "applicationId": "com.team_1.PushyTasks",
   "variantName": "release",
   "elements": [
     {

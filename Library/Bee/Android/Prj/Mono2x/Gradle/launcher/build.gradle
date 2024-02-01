@@ -5,7 +5,7 @@ dependencies {
     }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
     buildToolsVersion '30.0.2'
 
     compileOptions {
@@ -15,8 +15,8 @@ android {
 
     defaultConfig {
         minSdkVersion 22
-        targetSdkVersion 30
-        applicationId 'com.team_1.TODO_app'
+        targetSdkVersion 34
+        applicationId 'com.team_1.PushyTasks'
         ndk {
             abiFilters 'armeabi-v7a'
         }
